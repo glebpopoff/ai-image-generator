@@ -1,0 +1,28 @@
+{
+  "name": "ai-image-generator",
+  "version": "1.0.0",
+  "description": "CLI tool to generate images using AI models",
+  "main": "index.js",
+  "bin": {
+    "ai-image-generator": "./index.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "cli",
+    "ollama"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.86.1"
+  }
+}
